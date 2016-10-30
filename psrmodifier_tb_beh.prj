@@ -1,0 +1,2 @@
+vhdl work "PSR_Modifier.vhd"
+vhdl work "tb_PSR_Modifier.vhd"
