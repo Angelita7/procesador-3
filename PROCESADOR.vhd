@@ -122,9 +122,6 @@ COMPONENT PSR_Modifier
 	END COMPONENT;
 	
 
-
-
-
 	COMPONENT Alu
 	PORT(
 		suma1 : IN std_logic_vector(31 downto 0);
@@ -134,9 +131,7 @@ COMPONENT PSR_Modifier
 		);
 	END COMPONENT;
 
-	
-
-	
+		
 
 signal sumadorTonpc, npcTopc,pcToim,imToucrfseu,rfToalu1,rfTomux,aluTorf, seuTomux, muxToalu : STD_LOGIC_VECTOR (31 downto 0);
 signal ucToalu: STD_LOGIC_VECTOR (5 downto 0);
